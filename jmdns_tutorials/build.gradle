@@ -14,11 +14,12 @@
  * the License.
  */
 
+dependencies {
+    compile project(':jmdns')
+}
+
 apply plugin: 'application'
 
 mainClassName = 'com.github.rosjava.zeroconf_jmdns_suite.jmdns.tutorials.Main'
 
-dependencies {
-  compile project(':jmdns')
-}
 
